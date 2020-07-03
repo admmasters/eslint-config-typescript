@@ -3,18 +3,29 @@
   "version": "0.0.1",
   "description": "An opinionated TypeScript ESLint config",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified - its a linting config!\" && exit 1"
-  },
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/admmasters/eslint-config-typescript.git"
   },
-  "keywords": [],
+  "keywords": ["eslint", "config", "standard"],
   "author": "Matt Revell",
   "license": "SEE LICENSE IN THEUNLICENSE",
   "bugs": {
     "url": "https://github.com/admmasters/eslint-config-typescript/issues"
   },
-  "homepage": "https://github.com/admmasters/eslint-config-typescript#readme"
+  "homepage": "https://github.com/admmasters/eslint-config-typescript#readme",
+  "peerDependencies": {
+    "eslint": ">= 7",
+    "@typescript-eslint/parser": "^3.5.0",
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-jest": "^23.17.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.5"
+  }
 }
