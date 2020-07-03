@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-typescript",
+  "version": "0.0.1",
+  "description": "An opinionated TypeScript ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified - its a linting config!\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/admmasters/eslint-config-typescript.git"
+  },
+  "keywords": [],
+  "author": "Matt Revell",
+  "license": "SEE LICENSE IN THEUNLICENSE",
+  "bugs": {
+    "url": "https://github.com/admmasters/eslint-config-typescript/issues"
+  },
+  "homepage": "https://github.com/admmasters/eslint-config-typescript#readme"
+}
