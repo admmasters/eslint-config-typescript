@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-typescript",
+  "name": "eslint-config-piotypescript",
   "version": "0.0.1",
   "description": "An opinionated TypeScript ESLint config",
   "main": "index.js",
